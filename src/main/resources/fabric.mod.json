@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "broadcaster",
+  "version": "${version}",
+  "name": "Broadcaster",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/theep/Broadcaster"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/broadcaster/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.selfdot.broadcaster.Broadcaster"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
